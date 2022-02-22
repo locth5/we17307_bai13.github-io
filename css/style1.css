@@ -1,93 +1,79 @@
-.menu{
+.boxcenter{
     width:80%;
     margin: 0 auto;
-    height:40px;
+}
+.header{
+    width:100%;
+    min-height:150px;
     border: 1px solid #ccc;
 }
-
-ul{
-    list-style: none;
+.header img{
+    width:100%;
 }
-ul li{
-    float:left;
-}
-ul li a{
-    margin: 0 20px;
-    font-size: 20pt;
-    font-variant: small-caps;
-}
-ul li a:hover{
-    color: #f00;
-}
-
-ul li ul li{
-    float:none;
-    margin: 10px 0;
-}
-ul li ul{
-    padding: 0;
-    display: none;
-    position: absolute;
-}
-ul li:hover ul{
-    display: block;
-}
-.row{
-    width: 70%;
-    border: 1px solid #999;
-    height: 300px;
-    position: relative;
-    
+.menu{
+    width:100%;
+    height:40px;
+    border: 1px solid #ccc;
 }
 .mb{
     margin-bottom: 20px;
 }
-.boxhinh1{
-    width: 30%;
-    height: 150px;
-    border: 1px solid #999;
+.boxleft{
+    float:left;
+    width: 70%;
+    min-height: 600px;
+    border: 1px solid #ccc;
+    /*định vị lớp cha*/
+    position: relative;
+}
+.boximg{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
     top: 20px;
-    left: 20px;
-    position:absolute;
+    left:20px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
 }
-.boxhinh1 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.boximg img{
+    float: left;
+    width:100%;
 }
-.boxhinh2{
-    width: 30%;
-    height: 150px;
-    border: 1px solid #999;
+.boxcata{
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+    color: #f00;
+    background-image: linear-gradient(to left, rgba(218, 220, 231, 0), rgb(60, 221, 221));
+}
+/*Hình 2 */
+.boximg1{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
     top: 20px;
-    left: 190px;
-    position:absolute;
+    left:190px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
 }
-.boxhinh2 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.boximg1 img{
+    float: left;
+    width:100%;
 }
-
-.boxhinh3{
-    width: 30%;
-    height: 150px;
-    border: 1px solid #999;
+/* hình 3*/
+.boximg2{
+    float:left;
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
     top: 20px;
-    left: 360px;
-    position:absolute;
+    left:360px;
+    /*định vị lớp con có thuộc tính absolute (tương đối) trên lớp cha */
+    position: absolute;
 }
-.boxhinh3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.text{
-    right:20px;
-    bottom: 20px;
-    position:absolute;
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
-}
-hr{
-    clear: both;
+.boximg2 img{
+    float: left;
+    width:100%;
 }
